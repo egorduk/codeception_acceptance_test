@@ -1,0 +1,9 @@
+class_name: WebBrowser
+modules:
+  enabled:
+  - WebDriver
+  - \Helper\Acceptance
+  config:
+    WebDriver:
+      url: 'http://google.com'
+      browser: 'chrome'
